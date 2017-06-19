@@ -5,7 +5,6 @@ library(lubridate)
 tr<-read.csv("train.csv")
 ATM<-read.csv("ATM_info.csv")
 tr$year<-year(tr$Date)
-tr$year<-year(tr$Date)
 tr$month<-month(tr$Date)
 tr$day<-day(tr$Date)
 tr$Date<-NULL
